@@ -30,6 +30,7 @@ public class MovieController {
         return movieService.search(id);
     }
 
+    @DeleteMapping("/{id}")
     public String delete(@PathVariable Long id) {
         movieService.delete(id);
         return "영화가 삭제되었습니다.";
