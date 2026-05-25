@@ -22,6 +22,7 @@
 | 리뷰 삭제 | DELETE | /api/review/{id} | - | - | 204 |
 ## Postman으로 API 호출 결과
 <p><img width="1919" height="694" alt="스크린샷 2026-05-25 234327" src="https://github.com/user-attachments/assets/cb970064-5908-48b8-aeeb-5c799e096125" /></p>
+
 ## 강의에서 배운 내용 중 이번에 직접 써본 것 3가지
 
 ## Controller에서 엔티티를 직접 받지 않고 DTO로 분리한 이유
