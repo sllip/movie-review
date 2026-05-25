@@ -1,4 +1,4 @@
-package appcenter.spring_study.entity;
+package appcenter.spring_study.domain;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;

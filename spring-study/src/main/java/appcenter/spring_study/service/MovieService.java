@@ -1,6 +1,6 @@
 package appcenter.spring_study.service;
 
-import appcenter.spring_study.entity.Movie;
+import appcenter.spring_study.domain.Movie;
 import appcenter.spring_study.dto.movie.MovieRequestDto;
 import appcenter.spring_study.dto.movie.MovieResponseDto;
 import appcenter.spring_study.repository.MovieRepository;
