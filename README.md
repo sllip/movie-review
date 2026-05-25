@@ -10,7 +10,7 @@
 ## API 명세
 | 기능 | Method | Endpoint | Request | Response | 상태코드 |
 |---|---|---|---|---|---|
-| 영화 등록 | POST | /api/movie | {<br>&nbsp;&nbsp;"title": "Interstellar",<br>&nbsp;&nbsp;"director": "Christopher Nolan",<br>&nbsp;&nbsp;"genre": "SF"<br>}</pre> | {<br>&nbsp;&nbsp;"movieId": 1,<br>&nbsp;&nbsp;"title": "Interstellar",<br>&nbsp;&nbsp;"director": "Christopher Nolan",<br>&nbsp;&nbsp;"genre": "SF"<br>} | 200 OK |
-| 영화 전체 조회 | GET | /api/movie | - | {<br>&nbsp;&nbsp;"movieId": 1,<br>&nbsp;&nbsp;"title": "Interstellar",<br>&nbsp;&nbsp;"director": "Christopher Nolan",<br>&nbsp;&nbsp;"genre": "SF"<br>} | 200 OK |
-| 영화 단건 조회 | GET | /api/movie/{id} | - | {<br>&nbsp;&nbsp;"movieId": 1,<br>&nbsp;&nbsp;"title": "Interstellar",<br>&nbsp;&nbsp;"director": "Christopher Nolan",<br>&nbsp;&nbsp;"genre": "SF"<br>} | 200 OK |
-| 영화 삭제 | DELETE | /api/movie/{id} | - | {<br>&nbsp;&nbsp;"message ": "영화가 삭제되었습니다."<br>} | 200 OK |
+| 영화 등록 | POST | /api/movie | {<br>&nbsp;&nbsp;&nbsp;&nbsp;"title": "Interstellar",<br>&nbsp;&nbsp;&nbsp;&nbsp;"director": "Christopher Nolan",<br>&nbsp;&nbsp;&nbsp;&nbsp;"genre": "SF"<br>}</pre> | {<br>&nbsp;&nbsp;&nbsp;&nbsp;"movieId": 1,<br>&nbsp;&nbsp;&nbsp;&nbsp;"title": "Interstellar",<br>&nbsp;&nbsp;&nbsp;&nbsp;"director": "Christopher Nolan",<br>&nbsp;&nbsp;&nbsp;&nbsp;"genre": "SF"<br>} | 200 OK |
+| 영화 전체 조회 | GET | /api/movie | - | {<br>&nbsp;&nbsp;&nbsp;&nbsp;"movieId": 1,<br>&nbsp;&nbsp;&nbsp;&nbsp;"title": "Interstellar",<br>&nbsp;&nbsp;&nbsp;&nbsp;"director": "Christopher Nolan",<br>&nbsp;&nbsp;&nbsp;&nbsp;"genre": "SF"<br>} | 200 OK |
+| 영화 단건 조회 | GET | /api/movie/{id} | - | {<br>&nbsp;&nbsp;&nbsp;&nbsp;"movieId": 1,<br>&nbsp;&nbsp;&nbsp;&nbsp;"title": "Interstellar",<br>&nbsp;&nbsp;&nbsp;&nbsp;"director": "Christopher Nolan",<br>&nbsp;&nbsp;&nbsp;&nbsp;"genre": "SF"<br>} | 200 OK |
+| 영화 삭제 | DELETE | /api/movie/{id} | - | {<br>&nbsp;&nbsp;&nbsp;&nbsp;"message ": "영화가 삭제되었습니다."<br>} | 200 OK |
