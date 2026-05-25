@@ -13,5 +13,5 @@
 ---
 | 기능 | Method | Endpoint | Request | Response | 상태코드 |
 |---|---|---|---|---|---|
-| 영화 등록 | POST | /api/movie | <pre>{<br>    "title": "Interstellar",<br>    "director": "Christopher Nolan",<br>    "genre": "SF"<br>}</pre> | {<br>    "movieId": 1,<br>    "title": "Interstellar",<br>    "director": "Christopher Nolan",<br>    "genre": "SF"<br>} | 200 OK |
-| 영화 전체 조회 | GET | /api/movie | - | {<br>"movieId": 1,<br>"title": "Interstellar",<br>"director": "Christopher Nolan",<br>"genre": "SF"<br>} | 200 OK |
+| 영화 등록 | POST | /api/movie | <pre>{<br>  "title": "Interstellar",<br>  "director": "Christopher Nolan",<br>  "genre": "SF"<br>}</pre> | <pre>{<br>  "movieId": 1,<br>  "title": "Interstellar",<br>  "director": "Christopher Nolan",<br>  "genre": "SF"<br>}</pre> | 200 OK |
+| 영화 전체 조회 | GET | /api/movie | - | <pre>{<br>  "movieId": 1,<br>  "title": "Interstellar",<br>  "director": "Christopher Nolan",<br>  "genre": "SF"<br>}</pre> | 200 OK |
