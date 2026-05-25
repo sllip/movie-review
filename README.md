@@ -6,6 +6,7 @@
 - 속성 : 별점, 내용, 스포일러 유무
 - 영화에 대한 리뷰 작성 및 조회
 ## ERD
+<img width="1018" height="608" alt="스크린샷 2026-05-24 221211" src="https://github.com/user-attachments/assets/8e2c4753-8746-4995-8e21-29f0f47d499c" />
 하나의 영화에는 여러 리뷰가 작성될 수 있지만 리뷰 하나는 하나의 영화에 대한 내용만 작성할 수 있다. 따라서 영화와 리뷰의 관계를 1:N으로 구현하였다.
 ## API 명세
 | 기능 | Method | Endpoint | Request | Response | 상태코드 |
