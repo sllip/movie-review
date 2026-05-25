@@ -8,7 +8,7 @@
 - 영화에 대한 리뷰 작성 및 조회
 ## ERD
 ---
-<img width="634" height="779" alt="스크린샷 2026-05-25 180156" src="https://github.com/user-attachments/assets/94c070ec-3fa9-415c-b4ed-5a6c4c6ed63d" />
+<img width="1018" height="608" alt="스크린샷 2026-05-24 221211" src="https://github.com/user-attachments/assets/c301c001-9672-4169-a7e3-e9db182621fd" />
 하나의 영화에는 여러 리뷰가 작성될 수 있지만 리뷰 하나는 하나의 영화에 대한 내용만 작성할 수 있다. 따라서 영화와 리뷰의 관계를 1:N으로 구현하였다.
 ## API 명세
 ---
