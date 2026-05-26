@@ -31,8 +31,7 @@ public class ReviewController {
     }
 
     @DeleteMapping("/{id}")
-    public String delete(@PathVariable Long id) {
+    public void delete(@PathVariable Long id) {
         reviewService.delete(id);
-        return "리뷰가 삭제되었습니다.";
     }
 }
