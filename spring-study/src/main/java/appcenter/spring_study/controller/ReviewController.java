@@ -4,6 +4,7 @@ import appcenter.spring_study.dto.review.ReviewRequestDto;
 import appcenter.spring_study.dto.review.ReviewResponseDto;
 import appcenter.spring_study.service.ReviewService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -31,6 +32,7 @@ public class ReviewController {
     }
 
     @DeleteMapping("/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT) //상태 코드 204
     public void delete(@PathVariable Long id) {
         reviewService.delete(id);
     }

@@ -4,6 +4,7 @@ import appcenter.spring_study.dto.movie.MovieRequestDto;
 import appcenter.spring_study.dto.movie.MovieResponseDto;
 import appcenter.spring_study.service.MovieService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -31,6 +32,7 @@ public class MovieController {
     }
 
     @DeleteMapping("/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT) //상태 코드 204
     public void delete(@PathVariable Long id) {
         movieService.delete(id);
     }
