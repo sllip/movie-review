@@ -24,7 +24,9 @@
 <p><img width="1919" height="694" alt="스크린샷 2026-05-25 234327" src="https://github.com/user-attachments/assets/cb970064-5908-48b8-aeeb-5c799e096125" /></p>
 
 ## 강의에서 배운 내용 중 이번에 직접 써본 것 3가지
-
+1. Spring Data JPA의 `JpaRepository`를 상속하여 데이터를 조회하고 저장해보았다. SQL을 직접 작성하지 않아도 `save`, `findById`, `findAll`, `delete` 같은 기능을 사용할 수 있었다.
+2. `@Id`, `@GeneratedValue` 같은 JPA 어노테이션을 사용해서 엔티티를 데이터베이스 테이블과 매핑해보았다.
+3. `@Transactional`을 사용해서 여러 작업을 하나로 묶어 처리하였다. 이로 인해 데이터 저장 및 삭제 작업을 안정적으로 수행할 수 있었다.
 ## Controller에서 엔티티를 직접 받지 않고 DTO로 분리한 이유
 엔티티를 그대로 사용하면 필요하지 않은 데이터도 함께 전달될 수 있기 때문에 DTO로 분리했다. 또한 DTO를 따로 사용하면 Request와 Response의 역할을 분리할 수 있어서 관리하기 쉽다.
 ## 막혔던 부분 1가지와 해결 방법
