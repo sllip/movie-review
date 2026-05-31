@@ -18,14 +18,19 @@ public class MovieServiceTest {
 
     @Test
     void 영화_등록() {
+        //given
         Movie movie = new Movie(
                 "Interstellar",
                 "Christopher Nolan",
                 "SF"
         );
 
+        //when
         Movie savedMovie = movieRepository.save(movie);
 
+        //then
         assertThat(savedMovie.getTitle()).isEqualTo("Interstellar");
+        assertThat(savedMovie.getDirector()).isEqualTo("Christopher Nolan");
+        assertThat(savedMovie.getGenre()).isEqualTo("SF");
     }
 }
